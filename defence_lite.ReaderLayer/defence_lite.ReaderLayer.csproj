@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+        <RootNamespace>defence_lite.ReaderLayer</RootNamespace>
+        <AssemblyName>defence_lite.ReaderLayer</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="System.IO.Ports" Version="5.0.0" />
+    </ItemGroup>
+
+</Project>
