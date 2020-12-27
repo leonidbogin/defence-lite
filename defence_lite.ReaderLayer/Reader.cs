@@ -9,7 +9,7 @@ namespace defence_lite.ReaderLayer
         private static Reader _instance;
         private SerialPort _serialPort;
         
-        public event Action<string> ReadEvent;
+        public event Action<ReadRecord> ReadEvent;
         
         public static Reader GetInstance()
         {
@@ -40,7 +40,7 @@ namespace defence_lite.ReaderLayer
             {
                 cardNumber += Convert.ToChar(data[i]);
             }
-            ReadEvent?.Invoke(cardNumber);
+            ReadEvent?.Invoke(new ReadRecord(cardNumber));
         }
     }
 }
