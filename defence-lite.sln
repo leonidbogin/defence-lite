@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defence-lite", "defence-lite\defence-lite.csproj", "{B2123C11-C663-4261-B459-CD58A4B2DA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "defence_lite.ReaderLayer", "defence_lite.ReaderLayer\defence_lite.ReaderLayer.csproj", "{C210C0DA-A4B6-47B0-8629-D05228790A27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B2123C11-C663-4261-B459-CD58A4B2DA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2123C11-C663-4261-B459-CD58A4B2DA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2123C11-C663-4261-B459-CD58A4B2DA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C210C0DA-A4B6-47B0-8629-D05228790A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C210C0DA-A4B6-47B0-8629-D05228790A27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C210C0DA-A4B6-47B0-8629-D05228790A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C210C0DA-A4B6-47B0-8629-D05228790A27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
